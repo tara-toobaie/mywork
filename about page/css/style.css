@@ -1,0 +1,71 @@
+#herogrid{
+
+   height: 100%;
+
+    display:grid;
+    grid-template-columns:25% 75%;
+    min-height: 800px;
+   
+   
+    
+}
+#slideleft{
+    
+    
+     
+ 
+
+ 
+    background-color: black;
+    
+
+}
+
+#slideright{
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-rows:10% 90%
+   
+
+}
+
+
+.topnav a {
+    float: right;
+    
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5%;
+    padding-top: 5%;
+    margin:0
+  
+}
+
+h1{
+   
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-right: 15%;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 1.6;
+
+    
+
+
+
+}
+img{
+    padding-top: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:10% ;
+}
+.coloryallow{
+    color:#F2994a ;
+}

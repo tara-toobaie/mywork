@@ -1,0 +1,121 @@
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5%;
+    padding-top: 5%;
+  
+}
+.logo{
+   display: flex;
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 8%;}
+    
+
+
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+         float: right;
+        background-color:#f2994a;
+        color:black;
+        font-weight: bold;
+        padding: 12px 40px;
+        border: none;
+        border-radius: 4px;
+    
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #f2994a;
+      }
+      
+      .container {
+          display:block;
+          padding-left: 20%;
+         border-radius: 5px;
+         width: 1000px;
+         padding-bottom: 8%;
+      
+        
+      }  
+
+      /*footer*/
+.email {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;
+    padding-left:15% ;
+
+    
+}
+.phone{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 15%;
+}
+.linkedin{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 15%;
+
+}
+.icon1, .icon2, .icon3{
+    padding: 6%;
+}
+
+hr{
+   
+    display: block;
+    margin-right:20% ;
+    margin-left: 28%;
+   
+    height: 2px;
+    
+    color:#f2994a; background-color:#f2994a ;border:none;
+
+  
+  }
+  
+
+
+
+
+    @media only screen and (max-width: 600){
+        #topnav a, .logo{
+            display: none;
+        }
+        .container{ 
+
+            width: 100%;
+        }
+    }
+    
+
+    
+    

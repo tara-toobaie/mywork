@@ -1,0 +1,214 @@
+
+
+.navbar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5%;
+    padding-top: 5%;
+    text-decoration: none;
+  
+    
+}
+
+
+.logo{
+
+    display: flex;
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 8%;}
+
+
+.top-text{
+ display: block;
+    padding-left: 5%;
+    padding-top: 10%;
+ 
+
+}
+
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+  
+ 
+
+}
+
+h2{
+    font-size: 40px;
+    font-weight: normal;
+    
+}
+#Nasa{
+display: flex;
+
+align-items: center;
+justify-content:flex-start;
+padding-top: 5%;
+padding-left: 5%;
+}
+#background{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 1060px;
+    height: 815px;
+    background-color:#c9d6dd;
+    background-position: center;
+    position: relative;
+
+}
+
+
+
+
+
+.Nasa-image{
+    width: 638px;
+    height: 433px;
+    display: flex;
+    align-items: center;
+    padding-left:1% ;
+   
+
+}
+
+
+
+            
+
+
+.text-explaine{
+    position: absolute;
+    right: -300px;
+  top: 200px;
+  padding: 20px;
+  max-width: 410px;
+  z-index: 100;
+  
+
+    
+}
+h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
+h4{
+    font-size: 28px;
+    font-weight:800px;
+}
+p1{
+    font-size: 28px;
+    font-weight:normal;
+    
+}
+
+
+    
+    
+
+h5{
+    font-size: 22px;
+    font-weight:800px;
+    padding-top:5% ;
+}
+#Loco{
+    display: flex;
+    
+    align-items: center;
+    justify-content:flex-start;
+    padding-top: 5%;
+    padding-left: 5%;
+    }
+ .loco-image{
+
+    
+    display: flex;
+    align-items: center;
+    padding-left: 1% ;
+ }  
+ 
+ 
+
+
+
+
+ #BIKE{
+    display: flex;
+    
+    align-items: center;
+    justify-content:flex-start;
+    padding-top: 5%;
+    padding-left: 5%;
+    }
+    .BIKE-image{
+        display: flex;
+    align-items: center;
+    padding-left: 9%;
+
+    }
+    #DRAGON{
+        display: flex;
+        
+        align-items: center;
+        justify-content:flex-start;
+        padding-top: 5%;
+        padding-left: 5%;
+        }
+        .Dragon-image{
+            display: flex;
+        align-items: center;
+        padding-left: 10%;
+        
+    
+        }
+        .footer-bar{
+            float: left;
+            
+            color:black;
+            text-align: center;
+             
+            
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: 5%;
+            padding-top: 10%;
+            padding-bottom: 5%;
+            text-decoration: none;}
+          
+            
+       
+
+        @media only  screen and  (max-width: 1000px){
+         
+         .navbar a, .logo,  h3, p1{
+             display: none;
+            
+
+        }}
+
+     
+        @media only  screen and  (max-width: 600px){
+
+    #background {
+
+        width: 100%;
+        box-sizing: border-box;
+    }}
+    @media only  screen and  (max-width: 600px){
+
+    img{
+        
+          width: 100%;
+      }  
+    }
